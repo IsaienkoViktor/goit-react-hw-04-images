@@ -1,5 +1,10 @@
-import { Bars } from 'react-loader-spinner';
+import { Dna } from 'react-loader-spinner';
+import './Loader.css';
 
 export const Loader = () => {
-  return <Bars color="#3f51b5" height={60} width={60} ariaLabel="loading" />;
+  return (
+    <div className="Dna">
+      <Dna visible={true} height="80" width="80" ariaLabel="dna-loading" />
+    </div>
+  );
 };
